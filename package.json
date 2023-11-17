@@ -2,9 +2,11 @@
   "name": "test-backend",
   "version": "1.0.0",
   "description": "a backend at chai and code",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":"nodemon src/index.js"
   },
   "keywords": [
     "javascript",
@@ -14,6 +16,7 @@
   "author": "dk",
   "license": "ISC",
   "devDependencies": {
-    "nodemon": "^3.0.1"
+    "nodemon": "^3.0.1",
+    "prettier": "^3.1.0"
   }
 }
